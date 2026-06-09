@@ -1,0 +1,33 @@
+# Dependency directories
+mra-dashboard-frontend/node_modules/
+node_modules/
+
+# Build outputs
+mra-dashboard-frontend/dist/
+mra-dashboard-frontend/build/
+dist/
+build/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python caches
+__pycache__/
+*.pyc
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
