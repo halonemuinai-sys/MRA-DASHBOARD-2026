@@ -10,7 +10,7 @@ export function AppProvider({ children }) {
   const [currency, setCurrency] = useState('IDR')
   const [selectedMonth, setSelectedMonth] = useState('Jun')
   const [selectedYear, setSelectedYear] = useState('2026')
-  const [user] = useState({ name: 'Aris S.', role: 'CEO / COO / CFO', avatar: 'AS' })
+  const [user] = useState({ name: 'Aris S.', role: 'IT Auditor', avatar: 'AS' })
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false)
   const [hideValues, setHideValues] = useState(false)
   const [isTransitioning, setIsTransitioning] = useState(false)
